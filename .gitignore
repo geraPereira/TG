@@ -1,3 +1,6 @@
+# Created by https://www.gitignore.io/api/latex
+
+### LaTeX ###
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
@@ -10,7 +13,6 @@
 *.fot
 *.cb
 *.cb2
-.*.lb
 
 ## Intermediate documents:
 *.dvi
@@ -39,6 +41,7 @@
 *.synctex.gz
 *.synctex.gz(busy)
 *.pdfsync
+*Notes.bib
 
 ## Auxiliary and intermediate files from other packages:
 # algorithms
@@ -110,14 +113,6 @@ acs-*.bib
 *.gaux
 *.gtex
 
-# htlatex
-*.4ct
-*.4tc
-*.idv
-*.lg
-*.trc
-*.xref
-
 # hyperref
 *.brf
 
@@ -153,9 +148,7 @@ _minted*
 *.mw
 
 # nomencl
-*.nlg
 *.nlo
-*.nls
 
 # pax
 *.pax
@@ -198,9 +191,6 @@ pythontex-files-*/
 # easy-todo
 *.lod
 
-# xmpincl
-*.xmpi
-
 # xindy
 *.xdy
 
@@ -229,14 +219,14 @@ TSWLatexianTemp*
 *~[0-9]*
 
 # auto folder when using emacs and auctex
-./auto/*
-*.el
+/auto/*
 
 # expex forward references with \gathertags
 *-tags.tex
 
-# standalone packages
-*.sta
+### LaTeX Patch ###
+# glossaries
+*.glstex
 
-# generated if using elsarticle.cls
-*.spl
+
+# End of https://www.gitignore.io/api/latex
